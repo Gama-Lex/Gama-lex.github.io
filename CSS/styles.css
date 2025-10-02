@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:lightcyan;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    background: url('../images/TLOZ_Majoras_Mask_Wallpaper.jpg') no-repeat center;
+    background-size: cover;
+}
+
+header div.header-content {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(90%);
+    background: linear-gradient(to bottom, rgba(19, 188, 1, 0.4) 0%, rgba(255, 204, 36, 0.4) 50%, rgba(52, 1, 238, 0.4) 94%);
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: blue;
+}
+
+header img {
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px yellowgreen;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+main .card{
+    width: 300px;
+    border: 1px solid grey;
+    background-color: blueviolet;
+    box-shadow: 0 0 10px 10px lightblue;
+    border-radius: 20px;
+    padding: 10px;
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+main .card:hover {
+    box-shadow: 0 0 5px 5px rgb(56, 16, 92);
+}
+
+main .card picture {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+main .card img {
+    width: 100%;
+}
+
+main .card ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .card ul li{
+    list-style: none;
+    padding: 10px;
+    background-color:cornflowerblue;
+    color: black;
+    border-radius: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: cadetblue;
+    color :darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.5em;
+}
+
+footer a{
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+}
+
+footer input{
+    padding:  10px;
+    border-radius: 10px;
+}
+
+footer button{
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgb(50, 20, 244);
+    color: cadetblue;
+}
+
+footer button:hover {
+    color:gray;
+}
